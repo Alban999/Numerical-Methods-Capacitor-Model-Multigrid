@@ -1,0 +1,10 @@
+reset
+set terminal qt size 800, 600
+set xlabel "nombre d’itérations"
+set ylabel "residu (x1e-16)"
+
+
+set tics out
+set grid
+
+unset key

@@ -1,0 +1,17 @@
+reset
+set terminal qt size 800, 600
+set xlabel "x (mm) »
+set ylabel "y (mm) »
+set cblabel "Residu"
+set tics out
+set grid
+set size ratio -1
+set view 60,230
+set pm3d 
+set hidden3d
+unset key
+
+
+set title "Etude du résidu dans un condensateur"
+splot 'dataResidu.txt' using 1:2:3 with points pointsize 0.000001
+pause -1

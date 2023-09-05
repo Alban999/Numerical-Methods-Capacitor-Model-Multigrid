@@ -1,0 +1,1 @@
+int conjGrad(int ***ia, int ***ja, double ***a, double ***b, double **u, double ***uTab, int **nTab, double h, double bornes[4], double Lx, double Ly, int *niveau, double hcMaxGrossier, int nbreIter, double **rNormMG, int nbreIterMax);
